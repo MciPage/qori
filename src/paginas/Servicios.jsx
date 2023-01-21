@@ -20,7 +20,7 @@ export const Servicios = ({titulo}) => {
               <div className="card-body">
                 <h4>PRODUCCIÓN DE LECHE</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officiis veritatis cum dolore quaerat provident.</p>
-                <Link className='btn btn-primary' to='/servicios/lechera'>Ver Más</Link>
+                <Link className='btn btn-primary' to='/qori/servicios/lechera'>Ver Más</Link>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ export const Servicios = ({titulo}) => {
               <div className="card-body">
                 <h4>ENGORDE</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officiis veritatis cum dolore quaerat provident.</p>
-                <Link className='btn btn-primary' to='/servicios/engorde'>Ver Más</Link>
+                <Link className='btn btn-primary' to='/qori/servicios/engorde'>Ver Más</Link>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ export const Servicios = ({titulo}) => {
               <div className="card-body">
                 <h4>ENSILADOS</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officiis veritatis cum dolore quaerat provident.</p>
-                <Link className='btn btn-primary' to='/servicios/ensilado'>Ver Más</Link>
+                <Link className='btn btn-primary' to='/qori/servicios/ensilado'>Ver Más</Link>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ export const Servicios = ({titulo}) => {
               <div className="card-body">
                 <h4>ORDEÑO MECANICO</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officiis veritatis cum dolore quaerat provident.</p>
-                <Link className='btn btn-primary' to='/servicios/ordeño-mecanico'>Ver Más</Link>
+                <Link className='btn btn-primary' to='/qori/servicios/ordeño-mecanico'>Ver Más</Link>
               </div>
             </div>
           </div>

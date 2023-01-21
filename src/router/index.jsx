@@ -9,28 +9,28 @@ import { Servicios } from "../paginas/Servicios";
 
 export const rutas = createBrowserRouter([
     {
-        path:"/",
+        path:"/qori/",
         element: <Principal />,
         errorElement:<NoFound />,
         children:[
             {
-                path:"/",
+                path:"/qori/",
                 element:<Inicio />
             },
             {
-                path:"/inicio",
+                path:"/qori/inicio",
                 element:<Inicio />
             },
             {
-                path:"/contacto",
+                path:"/qori/contacto",
                 element:<Contacto />
             },
             {
-                path:"/servicios/:servicio",
+                path:"/qori/servicios/:servicio",
                 element:<DetalleServicio />
             },
             {
-                path:"/servicios",
+                path:"/qori/servicios",
                 element:<Servicios titulo="SERVICIOS"/>,
                 errorElement:<NoFound />,
                 // children:[
